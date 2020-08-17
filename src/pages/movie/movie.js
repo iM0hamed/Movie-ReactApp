@@ -71,7 +71,7 @@ function MovieInfo(props) {
         return (
           <>
             <Button icon="play-circle" onClick={openModal}>
-              Ver trailer
+              See trailer
             </Button>
             <ModalVideo
               videoKey={videoMovie.result.results[0].key}
@@ -98,7 +98,7 @@ function MovieInfo(props) {
         <h3>General</h3>
         <p>{overview}</p>
 
-        <h3>Generos</h3>
+        <h3>Genders</h3>
         <ul>
           {genres.map(gender => (
             <li key={gender.id}>{gender.name}</li>
