@@ -7,9 +7,9 @@ export default function Error404() {
   return (
     <div className="error404">
       <h1>Error404</h1>
-      <h2>Página no encontrada</h2>
+      <h2>Page not found</h2>
       <Link to="/">
-        <h3>Volver al inicio</h3>
+        <h3>Back to top</h3>
       </Link>
     </div>
   );
