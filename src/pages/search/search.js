@@ -37,7 +37,7 @@ function Search(props) {
   return (
     <Row>
       <Col span={12} offset={6} className="search">
-        <h1>Busca tu película</h1>
+        <h1>Look for your movie</h1>
         <Input value={searchValue} onChange={onChangeSerach} />
       </Col>
       {movieList.results && (
